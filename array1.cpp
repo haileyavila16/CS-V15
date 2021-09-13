@@ -10,7 +10,8 @@ int main()
 	{
         if(int i=1; i<N-1; i++)
         {
-            if ((numbers[i-1] < numbers[i]))
+            if ((numbers[i-1] < numbers[i])) && (numbers[i] < numbers[i+1])
+            cout << numbers[i] << "has the increasing order\n";
         }
 
 	}
